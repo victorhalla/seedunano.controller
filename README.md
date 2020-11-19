@@ -18,6 +18,8 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
  ## Xiaomi Flora Bluetooth Sensor
  This bluetooth sensor is cabable to monitor soil moisture (humidity), temperature, light, soil nutrients and battery level. Multiple sensors can be added to monitor different pot and/or plants.
 
+ [Xiaomi Flora Manual](https://files.miot-global.com/files/plants_monitor/Plants_monitor-EN.pdf)
+
  ## Shield Block Schema
  The shield will be very simple using only 3 main blocks:
  
