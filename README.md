@@ -27,8 +27,25 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
 
  ## Software
  Objective is to create an environment composed of 3 important pieces:
- 1. SeedUP Nano Firmare - capable setup Wifi credentials, search and get data from bluetooth sensors, send data to cloud, switch realy and update firmare over the air (OTA) 
- 2. SeedUP Cloud* - receive data from SeedUP shield, show reports and send notifications to mobile app
- 3. SeedUP Mobile App* - setup shield wifi credentials, type of plant and threshoulds
+ 1. **SeedUP Nano Firmare** - capable setup Wifi credentials, search and get data from bluetooth sensors, send data to cloud, switch realy and update firmware over the air (OTA) 
+ 2. **SeedUP Cloud*** - receive data from SeedUP shield, show reports and send notifications to mobile app
+ 3. **SeedUP Mobile App*** - setup shield wifi credentials, type of plant and threshoulds
 
 *These software will have their own repositories here.
+
+## Shield Details
+**Shield** | **SeedUP Nano**
+:-- | :-:
+**Wifi** | 802.11b/g/n 
+**Bluetooth** | 4.2 BT/BLE 
+**Camera** | -
+**Controllers**  1
+-Relays  1
+**Sensors** |  1
+-Bluetooth* | Yes 
+
+ ## Future Work
+ ⋅⋅* Enclosure design
+ ⋅⋅* Provide support for other bluetooth sensors
+ ⋅⋅* Create a cheapper PCB instead of a shield
+ ⋅⋅* Design own bluetooth sensor
