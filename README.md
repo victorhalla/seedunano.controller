@@ -34,6 +34,7 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
 *These software will have their own repositories here.
 
 ## Shield Details
+
 **Shield** | **SeedUP Nano**
 :-- | :-:
 **Wifi** | 802.11b/g/n 
@@ -48,6 +49,7 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
 -Length | TBD
 
  ## Future Work
+ 
  ⋅⋅* Enclosure design
  ⋅⋅* Provide support for other bluetooth sensors
  ⋅⋅* Create a cheapper PCB instead of a shield
