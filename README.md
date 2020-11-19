@@ -27,7 +27,7 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
 
  ## Software
  Objective is to create an environment composed of 3 important pieces:
- 1. SeedUP Nano Firmare - capable setup Wifi credentials, search and get data from bluetooth sensorsm switch realy and update firmare over the air (OTA) 
+ 1. SeedUP Nano Firmare - capable setup Wifi credentials, search and get data from bluetooth sensors, send data to cloud, switch realy and update firmare over the air (OTA) 
  2. SeedUP Cloud* - receive data from SeedUP shield, show reports and send notifications to mobile app
  3. SeedUP Mobile App* - setup shield wifi credentials, type of plant and threshoulds
 
