@@ -43,6 +43,9 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
 -Relays  1
 **Sensors** |  1
 -Bluetooth* | Yes 
+**Dimensions** |
+-Width | TBD
+-Length | TBD
 
  ## Future Work
  ⋅⋅* Enclosure design
