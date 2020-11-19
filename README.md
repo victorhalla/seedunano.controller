@@ -5,7 +5,30 @@ Many people want to plant indoors by placing pots next to the windows but most o
 
 It will basicay work for self watering planter allowing to eliminate basic problems on indor grow like: lack of light, water and nutrients.
 
-Using the well know Xiami Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets-and-sensors/xiaomi-huahuacaocao-flower-care-smart-monitor/](https://xiaomi-mi.com/sockets-and-sensors/xiaomi-huahuacaocao-flower-care-smart-monitor/) the shield will be able to get important information about the plant environment and send alerts throuth the cloud to a smartphone device.
+Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets-and-sensors/xiaomi-huahuacaocao-flower-care-smart-monitor/](https://xiaomi-mi.com/sockets-and-sensors/xiaomi-huahuacaocao-flower-care-smart-monitor/) the shield will be able to get important information about the plant environment and send alerts throuth the cloud to a smartphone device.
 
 
  ![SeedUp Nano Cloud](/docs/images/seedup_nano_cloud_v1.png "SeedUP Nano Cloud Diagram")
+
+ This shield can easily support more than one plant pot due the factor multiple sensors can be used together and Relay will be cabable to support lights up to 220V/10A.
+
+ ## Why Self Watering
+ Although the idea of using pumps to irrigate plants is very good, the simple can often work much better. Usually a self-irrigating pot can withstand up to 10 days without the need for water. It is possible to buy or DIY project that are available in the internet.
+
+ ## Xiaomi Flora Bluetooth Sensor
+ This bluetooth sensor is cabable to monitor soil moisture (humidity), temperature, light, soil nutrients and battery level. Multiple sensors can be added to monitor different pot and/or plants.
+
+ ## Shield Block Schema
+ The shield will be very simple using only 3 main blocks:
+ 
+ 1. DC Power supply from AC
+ 2. ESP32 Socket
+ 3. Relay
+
+ ## Software
+ Objective is to create an environment composed of 3 important pieces:
+ 1. SeedUP Nano Firmare - capable setup Wifi credentials, search and get data from bluetooth sensorsm switch realy and update firmare over the air (OTA) 
+ 2. SeedUP Cloud* - receive data from SeedUP shield, show reports and send notifications to mobile app
+ 3. SeedUP Mobile App* - setup shield wifi credentials, type of plant and threshoulds
+
+*These software will have their own repositories here.
