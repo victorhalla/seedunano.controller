@@ -7,3 +7,5 @@ It will basicay work for self watering planter allowing to eliminate basic probl
 
 Using the well know Xiami Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets-and-sensors/xiaomi-huahuacaocao-flower-care-smart-monitor/](https://xiaomi-mi.com/sockets-and-sensors/xiaomi-huahuacaocao-flower-care-smart-monitor/) the shield will be able to get important information about the plant environment and send alerts throuth the cloud to a smartphone device.
 
+
+ ![SeedUp Nano Cloud](/docs/images/seedup_nano_cloud_v1.png "SeedUP Nano Cloud Diagram")
