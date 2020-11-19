@@ -27,6 +27,32 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
  2. ESP32 Socket
  3. Relay
 
+Project files are available at [EasyEDA](https://oshwlab.com/victor.halla/seedup-nano-controller)
+
+![SeedUp Nano Board Top ](/docs/images/seedup_nano_board_top_v1.png "SeedUp Nano Board Top")
+
+![SeedUp Nano Board Botton ](/docs/images/seedup_nano_board_botton_v1.png "SeedUp Nano Board Botton")
+
+![SeedUp Nano Board 3D ](/docs/images/seedup_nano_board_3d_v1.png "SeedUp Nano Board #d")
+
+ ## BOM
+
+ID | Name | Designator | Footprint | Quantity | Manufacturer Part | Manufacturer | Supplier | Supplier Part
+:-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
+1 | F1 | F1 | 3.6X10 | 1 | 300mA 250VAC | ReliaPro | LCSC | C12107
+2 | F2 | F2 | 3.6X10 | 1 | 72*C Thermal Fuse | ReliaPro | LCSC | C12107
+3 | 1000uF | C1 | CP_5X11MM | 1 | RVT0J102M0810 | HONOR | LCSC | C42851
+4 | 470uF | C2 | CP_5X11MM | 1 | MV471M6R3F105R | CapXon | LCSC | C65208
+5 | HLK-PM01 | U4 | PWRM-TH_HLK-PM01 | 1 | HLK-PM01 | HI-LINK | LCSC | C209903
+6 | ESP32-DEVKITC-32D_ESP32-DEVKITC-32D | U1 | MODULE_ESP32-DEVKITC-32D | 1 |  |  |  | 
+7 | FC-2012HRK-620D | LED1 | LED0805-RD | 1 | FC-2012HRK-620D | NATIONSTAR | LCSC | C84256
+8 | SRA-05VDC-CL | K1 | RELAY-TH_SRA-X-CX | 1 | SRA-05VDC-CL | Ningbo Songle Relay | LCSC | C99666
+9 | 1K | R1,R2 | R0603 | 2 | 0603WAD1001T5E | UniOhm | LCSC | C51218
+10 | BC848BLT1G | Q1 | SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR | 1 | BC848BLT1G | ON | LCSC | C163725
+11 | 1N4007-C181127 | D1 | SOD-123F_L2.8-W1.8-LS3.7-RD | 1 | 1N4007 | Hottech | LCSC | C181127
+12 | KF128-7.5-3P | U2,U3 | CONN-TH_3P-P7.50_KF128-7.5-3P | 2 | KF128-7.5-3P | Cixi Kefa Elec | LCSC | C474955
+
+
  ## Software
  Objective is to create an environment composed of 4 important pieces:
  1. **SeedUP Nano Firmare** - capable setup Wifi credentials, search and get data from bluetooth sensors, send data to cloud, switch realy and update firmware over the air (OTA) 
