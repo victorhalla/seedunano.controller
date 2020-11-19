@@ -26,10 +26,11 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
  3. Relay
 
  ## Software
- Objective is to create an environment composed of 3 important pieces:
+ Objective is to create an environment composed of 4 important pieces:
  1. **SeedUP Nano Firmare** - capable setup Wifi credentials, search and get data from bluetooth sensors, send data to cloud, switch realy and update firmware over the air (OTA) 
  2. **SeedUP Cloud*** - receive data from SeedUP shield, show reports and send notifications to mobile app
  3. **SeedUP Mobile App*** - setup shield wifi credentials, type of plant and threshoulds
+ 4. **Home Assistant Integration*** - create a fully working integration with Home Assistant
 
 *These software will have their own repositories here.
 
