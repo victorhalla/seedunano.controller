@@ -39,9 +39,9 @@ Using the well know Xiaomi Flora Bluetooth Sensor [https://xiaomi-mi.com/sockets
 **Wifi** | 802.11b/g/n 
 **Bluetooth** | 4.2 BT/BLE 
 **Camera** | -
-**Controllers**  1
--Relays  1
-**Sensors** |  1
+**Controllers**
+-Relays | 1
+**Sensors** | 1
 -Bluetooth* | Yes 
 **Dimensions** |
 -Width | TBD
