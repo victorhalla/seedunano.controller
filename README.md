@@ -77,9 +77,8 @@ ID | Name | Designator | Footprint | Quantity | Manufacturer Part | Manufacturer
 -Width | TBD
 -Length | TBD
 
- ## Future Work
- 
- ⋅⋅* Enclosure design
- ⋅⋅* Provide support for other bluetooth sensors
- ⋅⋅* Create a cheapper PCB instead of a shield
- ⋅⋅* Design own bluetooth sensor
+## Future Work
+- [ ] Enclosure design
+- [ ] Provide support for other bluetooth sensors
+- [ ] Create a cheapper PCB instead of a shield
+- [ ] Design own bluetooth sensor
